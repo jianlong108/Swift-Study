@@ -22,13 +22,13 @@ import Foundation
  Swift:注意关键字大写
  */
 
-//整型
-var intValue:Int = 10
 //浮点型
 var intValue1:Double = 10.10 // 表示64位浮点数
 var intValue2:Float = 8.9    // 表示32位浮点数
 
 //如果按照长度划分,Swift中的长短比OC更加精确
+//整型
+var intValue:Int = 10
 var intValue3:Int8 = 6
 var intValue4:Int16 = 7
 var intValue5:Int32 = 8

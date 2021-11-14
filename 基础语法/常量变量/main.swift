@@ -7,16 +7,6 @@
 //
 
 import Foundation
-
-/*
- 输出:
- C: printf("Hello, World!");
- OC:NSLog(@"Hello, World!");
- Swift1.2:println("Hello, World!")
- Swift3.0:print("Hello, World!")
- */
-print("Hello, World!")
-
 /*
  “使用let来声明常量，使用var来声明变量”
  
@@ -65,4 +55,34 @@ var 嘿嘿 = 200
  Swift中的常量必须在定义时初始化(OC可以不初始化), 否则会报错
  常量的用途: 某些值以后不需要改变, 例如身份证
  */
+
+/*
+ 
+ 0x100002375 <+53>:   movq   $0xa, 0x1f98(%rip)        ; Swift51Overrides + 180
+ 0x100002380 <+64>:   leaq   -0x18(%rbp), %rdi
+ 0x100002384 <+68>:   callq  0x100003d5c               ; symbol stub for: swift_endAccess
+ 0x100002389 <+73>:   movq   0x1c88(%rip), %rax        ; (void *)0x00007fff815dca28: type metadata for Any
+ 0x100002390 <+80>:   addq   $0x8, %rax
+ 0x100002396 <+86>:   movq   $0x14, 0x1f7f(%rip)       ; 常量变量.num : Swift.Int + 4
+ 0x1000023a1 <+97>:   movq   $0x14, 0x1f7c(%rip)       ; 常量变量.num2 : Swift.Int + 4
+ 0x1000023ac <+108>:  movq   $0x64, 0x1f79(%rip)       ; 常量变量.num3 : Swift.Int + 4
+ 0x1000023b7 <+119>:  movq   $0xc8, 0x1f76(%rip)       ; 常量变量.🐥 : Swift.Int + 4
+ 0x1000023c2 <+130>:  movq   $0xa, 0x1f73(%rip)        ; 常量变量.嘿嘿 : Swift.Int + 4
+ */
 let num4 = 10
+print(num)
+print(num2)
+print(num3)
+print(🐥)
+print(嘿嘿)
+print(num4)
+
+
+/*
+ 输出:
+ C: printf("Hello, World!");
+ OC:NSLog(@"Hello, World!");
+ Swift1.2:println("Hello, World!")
+ Swift3.0:print("Hello, World!")
+ */
+print("Hello, World!")

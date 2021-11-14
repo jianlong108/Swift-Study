@@ -13,7 +13,29 @@ import Foundation
  在其它语言中很早就是有元组这个概念, 但是对于OC程序员来说这是一个新的概念
  将多个相同或者不同类型的值用一个小括号括起来就是一个元组
  */
-let student = ("xiaohange",30,99.8)
+
+/*
+ 0x100002520 <+0>:    pushq  %rbp
+ 0x100002521 <+1>:    movq   %rsp, %rbp
+ 0x100002524 <+4>:    subq   $0x120, %rsp              ; imm = 0x120
+ 0x10000252b <+11>:   leaq   0x195a(%rip), %rax        ; "1234"
+ 0x100002532 <+18>:   movl   %edi, -0x4(%rbp)
+ 0x100002535 <+21>:   movq   %rax, %rdi
+ 0x100002538 <+24>:   movl   $0x4, %eax
+ 0x10000253d <+29>:   movq   %rsi, -0x10(%rbp)
+ 0x100002541 <+33>:   movq   %rax, %rsi
+ 0x100002544 <+36>:   movl   $0x1, %edx
+ 0x100002549 <+41>:   callq  0x100003c7a               ; symbol stub for: Swift.String.init(_builtinStringLiteral: Builtin.RawPointer, utf8CodeUnitCount: Builtin.Word, isASCII: Builtin.Int1) -> Swift.String
+ 0x10000254e <+46>:   movq   0x1ac3(%rip), %rcx        ; (void *)0x00007fff815dca28: type metadata for Any
+ 0x100002555 <+53>:   addq   $0x8, %rcx
+ 0x10000255c <+60>:   movq   %rax, 0x1df5(%rip)        ; 元祖.student : 0x100004358
+ 0x100002563 <+67>:   movq   %rdx, 0x1df6(%rip)        ; 元祖.student : 0x100004360
+ 0x10000256a <+74>:   movq   $0x1e, 0x1df3(%rip)       ; 元祖.student : 0x100004368
+ 0x100002575 <+85>:   movq   $0xa, 0x1df0(%rip)        ; 元祖.student : 0x100004370
+ 0x100002580 <+96>:   movl   $0x1, %edi
+ */
+
+let student = ("1234",30,10)
 print(student)
 print(student.0)
 print(student.1)

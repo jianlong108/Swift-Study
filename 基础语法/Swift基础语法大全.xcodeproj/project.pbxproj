@@ -2195,6 +2195,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 47FF0EF61EDFF03A00C0ACC1;
@@ -3277,7 +3278,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3286,7 +3287,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3295,7 +3296,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3304,7 +3305,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3313,7 +3314,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3322,7 +3323,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3331,7 +3332,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3340,7 +3341,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3349,7 +3350,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3358,7 +3359,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3367,7 +3368,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3376,7 +3377,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3385,7 +3386,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3394,7 +3395,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3588,6 +3589,7 @@
 				479046791F3300B50012DC0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		479CAEBC1EE8FD1000C1A9D9 /* Build configuration list for PBXNativeTarget "数组其他操作" */ = {
 			isa = XCConfigurationList;
